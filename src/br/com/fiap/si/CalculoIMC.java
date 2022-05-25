@@ -19,11 +19,11 @@ public class CalculoIMC {
 		System.out.println("Seu IMC é " + imc);
 
 		if (imc <= 18.5) {
-			System.out.println("Você está abaixo do peso!");
+			System.out.println("Cuidado!! Você está abaixo do peso!");
 		}else if (imc >= 25) {
-			System.out.println("Você está acima do peso!");
+			System.out.println("Cuidado!! Você está acima do peso!");
 		}else {
-			System.out.println("Você está na faixa de peso ideal!");
+			System.out.println("Parabéns!! Você está na faixa de peso ideal!");
 		}
 
 	}

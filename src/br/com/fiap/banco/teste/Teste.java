@@ -31,7 +31,7 @@ public class Teste {
 		System.out.println("CC Saldo: " + cc.getSaldo());
 		System.out.println("CC Saldo: " + cc.getSaldoDisponivel());
 		
-		Conta poupanca = new ContaCorrente(322,124,1500,"001");
+		Conta poupanca = new ContaCorrente(322,124,2000,"001");
 		System.out.println("Poupança Saldo: " + poupanca.getSaldo());
 		
 		try {
